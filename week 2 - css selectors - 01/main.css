@@ -1,7 +1,7 @@
 * { margin: 50px; }
 
 header {
-  width: 96.5%;
+  width: 96%;
   height: 50%;
   background-color: green;
 }
@@ -138,15 +138,15 @@ body {
 }
 
 a:link {
-    color: darkblue;
+    color: blue;
 }
 
 a:visited {
-    color: violet;
+    color: red;
 }
 
 a:hover {
-    color: teal;
+    color: cyan;
 }
 
 a:active {
