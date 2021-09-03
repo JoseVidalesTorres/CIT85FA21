@@ -1,0 +1,111 @@
+* { margin: 50px; }
+
+header {
+  width: 96%;
+  height: 50%;
+  background-color: green;
+  height: 10rem;
+  border: dotted;
+}
+
+section {
+    width: 96.5%;
+    height: 50%;
+    background-color: cyan;
+}
+
+article {
+    width: 50%;
+    height: 50%;
+    background-color: darkred;
+}
+
+aside {
+    width: 96.5%;
+    height: 50%;
+    background-color: deeppink;
+}
+
+li:first-child {
+    color: mediumblue;
+}
+
+li:last-child {
+    color: mediumturquoise;
+}
+
+li:nth-child(even) {
+    color: orange;
+}
+
+li:nth-child(odd) {
+    color: orchid;
+}
+
+li:nth-child(3) {
+    color: palegreen;
+}
+
+li:nth-last-child(10) {
+    color: red;
+}
+
+li:nth-child(9n+3) {
+    color: rgb(149, 0, 255);
+}
+
+article:only-child {
+    color: rgb(75, 255, 75);
+}
+
+ul:first-child {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  background-color: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  color: none;
+}
+
+.emphasize {
+    color: dodgerblue;
+}
+
+#promote {
+    color: fuchsia;
+}
+
+body {
+    font-size: 36px;
+    text-align: center;
+    border: 10px solid turquoise;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:active {
+    color: springgreen;
+}
